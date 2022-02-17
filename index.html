@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toDoApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header"><h1>TO DO APP</h1></div>
+        <div class="main">
+            <div class="must">
+                <div class="must-container">
+                    <h2>DON'T FORGET TO...</h2>
+                    <label class="input ready1"for="exercise"><span><input type="checkbox" name="" id="exercise"></span> Do a morning exercise</label><br>
+                    <label class="input ready2"for="shower"><span><input type="checkbox" name="" id="shower"></span>Take a shower</label><br>
+                    <label class="input ready3"for="breakfast"><span><input type="checkbox" name="" id="breakfast"></span>Have a breakfast</label><br>
+                    <label class="input ready4"for="feed"><span><input type="checkbox" name="" id="feed"></span>Feed your pets</label><br>
+                    <label class="input ready5"for="study"><span><input type="checkbox" name="" id="study"></span>Start to study computer programming</label><br>
+                </div>
+            </div>
+            <div class="extra">
+                <div class="extra-container">
+                    <h2>DO YOU WANT TO ADD SOMETHINGS?</h2>
+                    <input type="text" name="" id="add" placeholder="You can add more 6 duty(min 3 letters)..."><button class="plus">+</button><br>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <h2 id="result"><span id="done">0</span> OUT OF <span id="total">5</span> TASK COMPLATED</h2>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

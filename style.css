@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+h1,h2{
+    text-align: center;
+}
+.main{
+    display: flex;
+    justify-content: center;
+    
+}
+.extra-container,
+.must-container{
+    width: 500px;
+}
+.extra{
+    width: 500px;
+}
+.input{
+    border: 2px solid darkblue;
+    background-color:aquamarine;
+    display: block;
+    width: 90%;
+    margin: 10px 20px;
+    padding: 5px;
+    text-align: start;
+}
+#add{
+    width: 425px;
+    padding: 8px;
+    border: 2px solid red;
+    background-color: bisque;
+    margin: -2px 0px 29px 20px;
+}
+#total,
+#done{
+    font-size: xx-large;
+    color: red;
+}
+.plus{
+   padding: 8px;
+}
+.hidden{
+    display: none;
+}
